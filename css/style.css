@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/avenirnext-ultralight.woff") format("woff"); }
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/avenirnext-regular.woff") format("woff"); }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@media only screen and (max-device-width: 529px) {
+  body {
+    margin-top: 20px; } }
+.fade-in-one {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -o-animation: fadein 2s;
+  /* Opera */ }
+
+.fade-in-two {
+  animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  /* Firefox */
+  -webkit-animation: fadein 3s;
+  /* Safari and Chrome */
+  -o-animation: fadein 3s;
+  /* Opera */ }
+
+.fade-in-three {
+  animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  /* Firefox */
+  -webkit-animation: fadein 4s;
+  /* Safari and Chrome */
+  -o-animation: fadein 4s;
+  /* Opera */ }
+
+.fade-in-three {
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  /* Firefox */
+  -webkit-animation: fadein 5s;
+  /* Safari and Chrome */
+  -o-animation: fadein 5s;
+  /* Opera */ }
+
+body {
+  background-color: black;
+  color: white;
+  margin-top: 400px;
+  font-family: 'Avenir';
+  font-size: 24px;
+  font-weight: 100; }
+  body a {
+    margin-top: 100px;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #CE9374;
+    display: inline-block; }
+  body a:hover {
+    color: #CE9374; }
+
+.text-margin {
+  margin-top: 15px; }
+
+.icons a {
+  font-size: 18px;
+  margin-right: 20px; }
+
+@media only screen and (max-device-width: 960px) {
+  body {
+    margin-top: 280px;
+    font-size: 24px; }
+    body a {
+      font-size: 18px; } }
+@media only screen and (max-device-width: 800px) {
+  body {
+    margin-top: 400px;
+    font-size: 38px; }
+    body a {
+      font-size: 25px;
+      margin-right: 9px; } }
+@media only screen and (max-device-width: 736px) {
+  body {
+    margin-top: 100px;
+    font-size: 19px; }
+    body a {
+      font-size: 15px;
+      margin-top: 60px; } }
+@media only screen and (max-device-width: 600px) {
+  body {
+    margin-top: 400px;
+    font-size: 28px; }
+    body a {
+      font-size: 24px; } }
+@media only screen and (max-device-width: 568px) {
+  body {
+    margin-top: 100px;
+    font-size: 18px; }
+    body a {
+      font-size: 15px;
+      margin-top: 60px; } }
+@media only screen and (max-device-width: 529px) {
+  body {
+    margin-top: 250px;
+    font-size: 18px; }
+    body a {
+      font-size: 14px;
+      margin-top: 60px;
+      margin-right: 10px; } }
+
+/*# sourceMappingURL=style.css.map */
